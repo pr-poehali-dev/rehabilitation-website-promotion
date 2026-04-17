@@ -10,7 +10,7 @@ const services = [
   "Реабилитация после травм и операций",
   "Реабилитация после инсульта",
   "Реабилитация при рассеянном склерозе",
-  "Реабилитация при сколиозе, остеохондрозе и грыжах МП дисков",
+  "Реабилитация при остеохондрозе, протрузиях и грыжах МП дисков",
   "Реабилитация при артрозах",
 ];
 
@@ -83,10 +83,13 @@ function HomePage({ onContactClick }: { onContactClick: () => void }) {
           РЕАБИЛИТОЛОГ
         </h1>
         <p
-          className="text-sm font-semibold uppercase tracking-widest mb-8 animate-fade-up opacity-0-init delay-200"
+          className="text-sm font-semibold uppercase tracking-widest mb-2 animate-fade-up opacity-0-init delay-200"
           style={{ color: "var(--green-mid)" }}
         >
           Восстановление и движение
+        </p>
+        <p className="text-sm text-muted-foreground mb-8 animate-fade-up opacity-0-init delay-200">
+          Реабилитолог · Мануальный терапевт · Кинезиотерапевт
         </p>
 
         <div className="flex flex-col items-center gap-3 animate-fade-up opacity-0-init delay-300">
@@ -189,7 +192,7 @@ function ContactsPage() {
           </div>
           <div>
             <p className="font-bold text-lg leading-tight" style={{ color: "var(--green-dark)" }}>Илья Поляков</p>
-            <p className="text-sm text-muted-foreground">Реабилитолог</p>
+            <p className="text-sm text-muted-foreground">Реабилитолог · Мануальный терапевт · Кинезиотерапевт</p>
           </div>
         </div>
 
