@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 
 const PHONE = "+7 (982) 758-90-40";
 const PHONE_RAW = "+79827589040";
-const WHATSAPP = `https://wa.me/79827589040`;
+const WHATSAPP = `https://vk.me/79827589040`;
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/8b21d949-9bbf-49dd-b35d-700c3bbd0388/bucket/473a2234-fc8b-42d2-9d68-4c0ac3e74605.png";
 
 const services = [
